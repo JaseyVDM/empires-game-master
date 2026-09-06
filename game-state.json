@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-06T00:00:00Z",
+  "updatedAt": "2026-09-06T00:00:00Z",
+  "status": "setup",
+  "config": {
+    "drinkPenalty": true,
+    "fixedMeasure": "half a can, or a shot glass of beer",
+    "placeholderTeams": true,
+    "stationCGame": null,
+    "puttDistance": null,
+    "excusedFromDrinks": []
+  },
+  "teams": [
+    {
+      "id": "team-1",
+      "name": "Team 1",
+      "placeholder": true,
+      "players": ["Player 1", "Player 2", "Player 3"],
+      "empire": "Ming",
+      "power": "Veto a question or card and force a redraw",
+      "powersUsed": { "leg1": false, "leg2": false, "leg3": false },
+      "points": { "leg1": 0, "leg2": 0, "total": 0 },
+      "leg2": { "tokens": 0, "buyIns": 0 },
+      "leg3": { "island": null, "lockedOutFrom": null }
+    },
+    {
+      "id": "team-2",
+      "name": "Team 2",
+      "placeholder": true,
+      "players": ["Player 4", "Player 5"],
+      "empire": "Egypt",
+      "power": "Skip one penalty entirely",
+      "powersUsed": { "leg1": false, "leg2": false, "leg3": false },
+      "points": { "leg1": 0, "leg2": 0, "total": 0 },
+      "leg2": { "tokens": 0, "buyIns": 0 },
+      "leg3": { "island": null, "lockedOutFrom": null }
+    },
+    {
+      "id": "team-3",
+      "name": "Team 3",
+      "placeholder": true,
+      "players": ["Player 6", "Player 7"],
+      "empire": "Vikings",
+      "power": "Steal one point or token from the current leader",
+      "powersUsed": { "leg1": false, "leg2": false, "leg3": false },
+      "points": { "leg1": 0, "leg2": 0, "total": 0 },
+      "leg2": { "tokens": 0, "buyIns": 0 },
+      "leg3": { "island": null, "lockedOutFrom": null }
+    }
+  ],
+  "leg1": {
+    "round": 0,
+    "roundsTotal": 3,
+    "stations": ["A: Putting", "B: Maths", "C: Pub game"],
+    "rotation": [],
+    "results": [],
+    "mathsStacksUsed": []
+  },
+  "leg2": {
+    "handsPlayed": 0,
+    "handsTotal": 6,
+    "startingTokensBase": 10,
+    "tokensPerLeg1Point": 2,
+    "startingTokensSet": false
+  },
+  "leg3": {
+    "islands": 10,
+    "questionsAsked": [],
+    "currentQuestion": null,
+    "winner": null
+  },
+  "log": []
+}
